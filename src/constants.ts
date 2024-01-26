@@ -140,6 +140,27 @@ const SCROLL_CHAIN: ChainSpec = {
   logoUrl: SCROLL_LOGO,
 };
 
+const BERA_CHAIN: ChainSpec = {
+  nodeUrl: "https://scan.berachain-internal.com",
+  addrs: {
+    dex: "0xaaaaAAAACB71BF2C8CaE522EA5fa455571A74106",
+    query: "0x62223e90605845Cf5CC6DAE6E0de4CDA130d6DDf",
+    impact: "0xc2c301759B5e0C385a38e678014868A33E2F3ae3"
+  },
+  poolIndex: 420,
+  isTestNet: true,
+  chainId: "0x80d",
+  gridSize: 4,
+  proxyPaths: {
+    cold: 3,
+    long: 130,
+    liq: 128
+  },
+  blockExplorer: "https://scan.berachain-internal.com",
+  displayName: "Bera Chain",
+  logoUrl: SCROLL_LOGO,
+};
+
 const LOCAL_FORK_CHAIN: ChainSpec = Object.assign({}, GOERLI_CHAIN, {
   nodeUrl: "http://127.0.0.1:8545",
   chainId: "0x7a69",
@@ -153,6 +174,7 @@ export const CHAIN_SPECS: { [chainId: string]: ChainSpec } = {
   "0x66eed": ARB_GOERLI_CHAIN,
   "0x8274f": SCROLL_SEPOLIA_CHAIN,
   "0x82750": SCROLL_CHAIN,
+  "0x80d": BERA_CHAIN,
   "goerli": GOERLI_CHAIN,
   "arbtest": ARB_GOERLI_CHAIN,
   "arbgoerli": ARB_GOERLI_CHAIN,

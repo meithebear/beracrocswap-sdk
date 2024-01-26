@@ -1,9 +1,9 @@
 {
-  "name": "@crocswap-libs/sdk",
+  "name": "@beracrocswap/sdk",
   "version": "0.2.79",
-  "description": "🛠🐊🛠 An SDK for building applications on top of CrocSwap",
-  "author": "Ben Wolski <ben@crocodilelabs.io>",
-  "repository": "https://github.com/CrocSwap/sdk.git",
+  "description": "🛠🐻🐊🛠 An SDK for building applications on top of CrocSwap for Berachain",
+  "author": "Mei Mei",
+  "repository": "https://github.com/meithebear/beracrocswap-sdk.git",
   "license": "MIT",
   "keywords": [
     "web3",
