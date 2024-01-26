@@ -156,7 +156,7 @@ const BERA_CHAIN: ChainSpec = {
     long: 130,
     liq: 128
   },
-  blockExplorer: "https://scan.berachain-internal.com",
+  blockExplorer: "https://etherscan.io/",
   displayName: "Berachain",
   logoUrl: "",
 };
