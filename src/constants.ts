@@ -141,11 +141,11 @@ const SCROLL_CHAIN: ChainSpec = {
 };
 
 const BERA_CHAIN: ChainSpec = {
-  nodeUrl: "https://scan.berachain-internal.com",
+  nodeUrl: "https://rpc.berachain-internal.com",
   addrs: {
-    dex: "0xaaaaAAAACB71BF2C8CaE522EA5fa455571A74106",
-    query: "0x62223e90605845Cf5CC6DAE6E0de4CDA130d6DDf",
-    impact: "0xc2c301759B5e0C385a38e678014868A33E2F3ae3"
+    dex: "0xD297bd3685b2ebb5A81C51C9932689d7a827316f",
+    query: "0x8d394eeAF686749bF075EB281A69a83bf468Ef0f",
+    impact: "0x7Df93205070205aa38d59bF39942278f3CeB899C"
   },
   poolIndex: 420,
   isTestNet: true,
@@ -157,8 +157,8 @@ const BERA_CHAIN: ChainSpec = {
     liq: 128
   },
   blockExplorer: "https://scan.berachain-internal.com",
-  displayName: "Bera Chain",
-  logoUrl: SCROLL_LOGO,
+  displayName: "Berachain",
+  logoUrl: "",
 };
 
 const LOCAL_FORK_CHAIN: ChainSpec = Object.assign({}, GOERLI_CHAIN, {
